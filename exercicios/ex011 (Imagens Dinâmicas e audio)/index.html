@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens que se adaptam sozinhas</title>
+</head>
+<body>
+<h1>imagens dinamicas</h1>
+<p>tente abrir esse site em vários despositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+<picture>
+    <source media="(max-width: 750px)" srcset="imagens/amarelo-p.png" type="image/png">
+<source media="(max-width: 1000px)" srcset="imagens/rosa-m.png" type="image/png">
+    <img src="imagens/verde-g.png" alt="imagem flexivel">
+    <h1>reproduzindo audios</h1>
+<p>vamos aprender a reproduzir audios</p>
+<audio preload="metadata" autoplay controls>
+
+<source src="midia/nefex.mp3" type="audio/mpeg">
+<source src="midia/nefex.ogg" type="audio/ogg">
+<source src="midia/nefex.wav" type="audio/wav">
+</audio>
+
+</picture>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+<style>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    margin: 0px;
+}
+header{
+    background-color: white;
+    width: 600px;
+    padding: 7px;
+    margin: 10px;
+}
+main{
+    background-color: white;
+    padding: 7px;
+    margin: 10px;
+    border-radius: 14px;
+}
+footer{
+background-color: black;
+color: white;
+text-align: center;
+padding: 4px;
+font-weight: bold;
+margin:0px;
+}
+article{
+    background-color: gray;
+}
+article>aside{
+    background-color: rgb(60, 60, 60);
+}
+
+nav{
+    background-color: gray;
+    padding: 1px;
+box-shadow: 3px 2px 0px black;
+}
+nav>a{
+text-decoration: none;
+color: white;
+font-weight: bold;
+margin-right: 30px;
+}
+nav>a:hover{
+text-decoration: underline;
+color: red;
+}
+footer>p{
+margin: 0px;
+
+}
+div#bola{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+</style>
+
+</head>
+<body>
+    <header>
+<h1>Exemplo de titulos</h1>
+<nav>
+        <a href="#">Menu</a>
+        <a href="#">opções</a>
+        <a href="#">sobre</a>
+        <a href="#">créditos</a>
+        <a href="#">perfil</a>
+    
+</nav>
+    </header>
+<main>
+<section id="assuntos">
+<p>Esportes</p>
+</section>
+<section id="noticias">
+    <article>
+        <h2>noticia sobre o Brasil</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore exercitationem, ut ducimus distinctio quidem tenetur iusto, voluptate error officiis repellendus temporibus libero eligendi numquam quasi dolorum voluptatem quas quod amet.</p>
+        <aside>artigo feito por mim</aside>
+    </article>
+</section>
+
+</main>
+
+<footer>
+<p>Desenvolvido por mim</p>
+
+
+</footer>
+<div id="bola"></div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
