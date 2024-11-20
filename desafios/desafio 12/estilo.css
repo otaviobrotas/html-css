@@ -39,12 +39,7 @@ html, body{
     font-family: var(--fonte1);
 }
 
-footer{
-    background-color: black;
-    text-align: center;
-    color: white;
-    padding: 10px;
-}
+
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -62,12 +57,26 @@ section.normal{
 section.imagem{
     background-color: rgb(74, 73, 73);
     color: white;
+    background-attachment: fixed;
 }
 section.imagem>p{
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.301);
+    background-color: rgba(0, 0, 0, 0.525);
     padding: 5px;
+text-shadow: 1px 1px 2px rgb(0, 0, 0);
+
 }
+section#img1{
+background-image: url(imagens/background001.jpg);
+background-size: cover;
+}
+section#img2{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    box-shadow: inset 2px 2px 13px 0px black;
+}
+
+
 a{
     color: white;
     text-decoration: none;
@@ -77,7 +86,12 @@ a:hover{
     color: darkgray;
     text-decoration: underline;
 }
-
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
 
 
 
