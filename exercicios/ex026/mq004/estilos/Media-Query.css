@@ -2,6 +2,39 @@
 
 /*todas as demais midias*/
 
+@media screen and (min-width: 600px) and (max-width: 768px){
+body{background-image: url(../imagens/back-tablet.jpg);}
+img#pc{display: none;}
+img#cel{display: none;}
+img#print{display: none;}
+img#tablet{display: block;}
+img#tv{display: none;}
+}
+
+@media screen and (min-width:769px )and (max-width:1279px){
+body{background-image: url(../imagens/back-pc.jpg);}
+img#pc{display: block;}
+img#cel{display: none;}
+img#print{display: none;}
+img#tablet{display: none;}
+img#tv{display: none;}
+}
+
+
+@media screen and (min-width:1280px){
+body{background-image: url(../imagens/back-tv.jpg);}
+img#pc{display: none;}
+img#cel{display: none;}
+img#print{display: none;}
+img#tablet{display: none;}
+img#tv{display: block;}
+}
+
+
+
+
+
+
 
 
 

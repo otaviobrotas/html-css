@@ -3,4 +3,51 @@
 
 /*Versão mobile first*/
 
+*{margin: 0px;
+padding: 0px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.3em;
+box-sizing: border-box;
+}
+
+html{
+height: 100vh;
+}
+
+body{background: black url(../imagens/back-phone.jpg)  no-repeat;
+background-size: cover;
+background-position: center center;
+}
+
+
+main{background-color: rgba(255, 255, 255, 0.408);
+width: 90%;
+border-radius: 15px;
+margin: auto;
+padding: 10px;
+margin-top: 20px;
+}
+
+h1{text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+
+img{margin: auto;
+
+
+}
+
+
+img#pc{display: none;}
+img#cel{display: block;}
+img#print{display: none;}
+img#tablet{display: none;}
+img#tv{display: none;}
+
+
+
+
 
