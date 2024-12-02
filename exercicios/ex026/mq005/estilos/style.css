@@ -10,10 +10,10 @@ html, body{background-color: lightgray;}
 header > h1{padding-top: 5px;
 text-align: center;}
 
-nav{display: block;}
+menu{display: none;}
 
 
-nav > ul > li > a {text-decoration: none;
+menu > ul > li > a {text-decoration: none;
 color: white;
 background-color: rgb(96, 96, 96);
 border-top: solid 1px black;
@@ -23,7 +23,7 @@ text-align: center;
 
 }
 
-nav > ul > li > a:hover{
+menu > ul > li > a:hover{
     text-decoration: underline;
     background-color: rgb(126, 125, 125);
     
@@ -31,7 +31,7 @@ nav > ul > li > a:hover{
 
 
 
-nav > ul{list-style-type: none;}
+menu > ul{list-style-type: none;}
 
 main{background-color: white; margin: auto; width: 90vw; margin-top: 10px; padding: 10px; border-radius: 10px;}
 
@@ -40,8 +40,18 @@ article > h2 {padding-bottom: 20px;}
 article > p {margin-bottom: 20px; text-align: justify; text-indent: 20px;}
 
 
+span#burguer{
+background-color: rgb(48, 48, 48);
+color: white;
+display: block;
+text-align: center;
+padding: 10px;
+}
 
-
+span#burguer:hover{cursor: pointer;
+background-color: black;
+color: white;
+}
 
 
 
